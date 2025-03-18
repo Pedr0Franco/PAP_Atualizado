@@ -113,8 +113,7 @@
                     <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
                         <div class="box snake mb-30">
                             <div class="gallery-img big-img"
-                                style="background-image: url(assets/img/gallery/catarina.png);">
-                            </div>
+                                style="background-image: url(assets/img/gallery/catarina.png);"></div>
                             <div class="overlay">
                                 <div class="overlay-content">
                                     <p>Treinadora</p>
@@ -181,8 +180,7 @@
                     <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
                         <div class="box snake mb-30">
                             <div class="gallery-img big-img"
-                                style="background-image: url(assets/img/gallery/gallery5.png);">
-                            </div>
+                                style="background-image: url(assets/img/gallery/gallery5.png);"></div>
                             <div class="overlay">
                                 <div class="overlay-content">
                                     <p>Aluno do mês</p>
@@ -215,8 +213,7 @@
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                         <div class="box snake mb-30">
                             <div class="gallery-img big-img"
-                                style="background-image: url(assets/img/gallery/gallery6.png);">
-                            </div>
+                                style="background-image: url(assets/img/gallery/gallery6.png);"></div>
                             <div class="overlay">
                                 <div class="overlay-content">
                                     <p>Ultimo Evento</p>
@@ -304,11 +301,10 @@
                         <div class="home-blog-single mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
                             <div class="blog-img-cap">
                                 <div class="blog-img">
-                                    <img src="assets/img/gallery/blog1.png" alt="">
-                                </div>
-                                <div class="blog-cap">
-                                    <span>Requisitos </span>
-                                    <h3><a href="blog_details.html">18ª edição dos Requisitos do Bar-Wings</a></h3>
+
+                                    <h1 style="color: #5fa7f9"><a href="blog.html">Bar-Wings Champshion Chip</a></h1>
+                                    <img src="assets/img/gallery/gallery6.png" alt=""
+                                        style="width: 700; height: auto;">
                                 </div>
                             </div>
                         </div>
@@ -317,11 +313,13 @@
                         <div class="home-blog-single mb-30 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".6s">
                             <div class="blog-img-cap">
                                 <div class="blog-img">
-                                    <img src="assets/img/gallery/blog2.png" alt="">
+                                    <h1 style="color: #5fa7f9"><a href="blog.html">Bar-Wings Battles</a></h1>
+                                    <img src="assets/img/gallery/Battles Bar-Wings.jpg" alt=""
+                                        style="width: 700; height: auto;">
                                 </div>
                                 <div class="blog-cap">
-                                    <span>Futuro Evento</span>
-                                    <h3><a href="blog_details.html"></a></h3>
+
+                                    <h3><a href="blog.html"></a></h3>
                                 </div>
                             </div>
                         </div>
