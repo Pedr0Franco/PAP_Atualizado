@@ -10,7 +10,6 @@
     <link rel="manifest" href="site.webmanifest">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/loder.png">
 
-
     <!-- CSS here -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
@@ -25,10 +24,12 @@
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body class="black-bg">
-    <!-- ? Preloader Start -->
+
+    <!-- Preloader Start -->
     <div id="preloader-active">
         <div class="preloader d-flex align-items-center justify-content-center">
             <div class="preloader-inner position-relative">
@@ -39,18 +40,17 @@
             </div>
         </div>
     </div>
-    <!-- Preloader Start -->
+    <!-- Preloader End -->
+
     <header>
         <!-- Header Start -->
         <div class="header-area header-transparent">
             <div class="main-header header-sticky">
                 <div class="container-fluid">
                     <div class="menu-wrapper d-flex align-items-center justify-content-between">
-                        <!-- Logo -->
                         <div class="logo">
                             <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
                         </div>
-                        <!-- Main-menu -->
                         <div class="main-menu f-right d-none d-lg-block">
                             <nav>
                                 <ul id="navigation">
@@ -58,16 +58,14 @@
                                     <li><a href="about.html">Sobre</a></li>
                                     <li><a href="courses.html">Aulas</a></li>
                                     <li><a href="pricing.html">Preços</a></li>
-                                    <li><a href="blog.html">Blog</a>
-                                    <li><a href="contact.html">Contactos</a></li>
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a href="contact.php">Contactos</a></li>
                                 </ul>
                             </nav>
                         </div>
-                        <!-- Header-btn -->
                         <div class="header-btns d-none d-lg-block f-right">
-                            <a href="contact.html" class="btn">Entra em Contacto</a>
+                            <a href="contact.php" class="btn">Entra em Contacto</a>
                         </div>
-                        <!-- Mobile Menu -->
                         <div class="col-12">
                             <div class="mobile_menu d-block d-lg-none"></div>
                         </div>
@@ -77,8 +75,9 @@
         </div>
         <!-- Header End -->
     </header>
+
     <main>
-        <!--? Hero Start -->
+        <!-- Hero Start -->
         <div class="slider-area2">
             <div class="slider-height2 d-flex align-items-center">
                 <div class="container">
@@ -92,8 +91,8 @@
                 </div>
             </div>
         </div>
-        <!-- Hero End -->
-        <!-- Courses area start -->
+
+        <!-- Pricing Area -->
         <section class="pricing-area section-padding30 fix">
             <div class="container">
                 <div class="row">
@@ -104,6 +103,8 @@
                     </div>
                 </div>
                 <div class="row">
+                    <!-- Cards comuns -->
+                    <!-- Card 1 -->
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="properties mb-30">
                             <div class="properties__card">
@@ -113,34 +114,63 @@
                                 <div class="properties__caption">
                                     <span class="month">1 Treino Avulso</span>
                                     <p class="mb-25">10€ /treino <span>(Single class)</span></p>
-                                    <div class="single-features">
-                                        <div class="features-icon">
-                                            <img src="assets/img/icon/check.svg" alt="">
-                                        </div>
-                                        <div class="features-caption">
-                                            <p>Utilização das barras </p>
-                                        </div>
-                                    </div>
-                                    <div class="single-features">
-                                        <div class="features-icon">
+                                    <a href="contact.php" class="border-btn border-btn2">Junta-te</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="properties mb-30">
+                            <div class="properties__card">
+                                <div class="about-icon">
+                                    <img src="assets/img/icon/price.svg" alt="">
+                                </div>
+                                <div class="properties__caption">
+                                    <span class="month">2X semana</span>
+                                    <p class="mb-25">€35/M</p>
+                                    <a href="contact.php" class="border-btn border-btn2">Junta-te</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="properties mb-30">
+                            <div class="properties__card">
+                                <div class="about-icon">
+                                    <img src="assets/img/icon/price.svg" alt="">
+                                </div>
+                                <div class="properties__caption">
+                                    <span class="month">Livre Trânsito</span>
+                                    <p class="mb-25">65€/M</p>
+                                    <a href="contact.php" class="border-btn border-btn2">Junta-te</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                                        </div>
-                                    </div>
-                                    <div class="single-features">
-                                        <div class="features-icon">
-                                            <img src="assets/img/icon/check.svg" alt="">
-                                        </div>
-                                        <div class="features-caption">
-                                            <p>Ajuda dos treinadores</p>
-                                        </div>
-                                    </div>
-                                    <div class="single-features">
-
-
-                                    </div>
-                                    <div class="single-features mb-20">
-                                    </div>
-                                    <a href="#" class="border-btn border-btn2">Junta-te</a>
+                <!-- Preço Sénior -->
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="section-tittle text-center mb-55">
+                            <h2>Preço Senior</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- 3 cards Senior -->
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="properties mb-30">
+                            <div class="properties__card">
+                                <div class="about-icon">
+                                    <img src="assets/img/icon/price.svg" alt="">
+                                </div>
+                                <div class="properties__caption">
+                                    <span class="month">1 Treino Avulso</span>
+                                    <p class="mb-25">10€ /treino <span>(Single class)</span></p>
+                                    <a href="contact.php" class="border-btn border-btn2">Junta-te</a>
                                 </div>
                             </div>
                         </div>
@@ -153,35 +183,8 @@
                                 </div>
                                 <div class="properties__caption">
                                     <span class="month">2X semana</span>
-                                    <p class="mb-25">€35/M </p>
-                                    <div class="single-features">
-                                        <div class="features-icon">
-                                            <img src="assets/img/icon/check.svg" alt="">
-                                        </div>
-                                        <div class="features-caption">
-                                            <p>Utilização das barras </p>
-                                        </div>
-                                    </div>
-                                    <div class="single-features">
-                                        <div class="features-icon">
-
-                                        </div>
-                                    </div>
-                                    <div class="single-features">
-                                        <div class="features-icon">
-                                            <img src="assets/img/icon/check.svg" alt="">
-                                        </div>
-                                        <div class="features-caption">
-                                            <p>Ajuda dos treinadores</p>
-                                        </div>
-                                    </div>
-                                    <div class="single-features">
-
-
-                                    </div>
-                                    <div class="single-features mb-20">
-                                    </div>
-                                    <a href="#" class="border-btn border-btn2">Junta-te</a>
+                                    <p class="mb-25">€40/M</p>
+                                    <a href="contact.php" class="border-btn border-btn2">Junta-te</a>
                                 </div>
                             </div>
                         </div>
@@ -193,41 +196,9 @@
                                     <img src="assets/img/icon/price.svg" alt="">
                                 </div>
                                 <div class="properties__caption">
-                                    <span class="month">Livre Trânsito</span>
-                                    <p class="mb-25">65€/M </p>
-                                    <div class="single-features">
-                                        <div class="features-icon">
-                                            <img src="assets/img/icon/check.svg" alt="">
-                                        </div>
-                                        <div class="features-caption">
-                                            <p>Utilização das barras </p>
-                                        </div>
-                                    </div>
-                                    <div class="single-features">
-                                        <div class="features-icon">
-
-                                        </div>
-                                    </div>
-                                    <div class="single-features">
-                                        <div class="features-icon">
-                                            <img src="assets/img/icon/check.svg" alt="">
-                                        </div>
-                                        <div class="features-caption">
-                                            <p>Ajuda dos treinadores</p>
-                                        </div>
-                                    </div>
-                                    <div class="single-features">
-                                        <div class="features-icon">
-                                            <img src="assets/img/icon/check.svg" alt="">
-                                        </div>
-                                        <div class="features-caption">
-                                            <p>Livre Trânsito </p>
-                                        </div>
-
-                                    </div>
-                                    <div class="single-features mb-20">
-                                    </div>
-                                    <a href="#" class="border-btn border-btn2">Junta-te</a>
+                                    <span class="month">3X semana</span>
+                                    <p class="mb-25">50€/M</p>
+                                    <a href="contact.php" class="border-btn border-btn2">Junta-te</a>
                                 </div>
                             </div>
                         </div>
@@ -235,43 +206,41 @@
                 </div>
             </div>
         </section>
-        <!-- Courses area End -->
-        <!-- ? services-area -->
+
+        <!-- Contact info -->
         <section class="services-area">
             <div class="container">
                 <div class="row justify-content-between">
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8">
-                        <div class="single-services mb-40">
+                        <div class="single-services mb-40 wow fadeInUp">
                             <div class="features-icon">
-
+                                <i class="fa fa-map-marker" style="font-size:48px;color:#07c9ff"></i>
                             </div>
                             <div class="features-caption">
-                                <h3>Localizaçaõ</h3>
-                                <p>Pavilhão Rainha do Leonor </p>
+                                <h3>Localização</h3>
+                                <h3><a href="https://www.google.com/local/place/fid/0xd18b3a777d7c1ed:0x2d3fcac339f003b/photosphere?...">Pavilhão Rainha Dona Leonor</a></h3>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
-                        <div class="single-services mb-40">
+                        <div class="single-services mb-40 wow fadeInUp">
                             <div class="features-icon">
-
+                                <i class="fa fa-phone" style="font-size:48px;color:#07c9ff"></i>
                             </div>
                             <div class="features-caption">
-                                <h3>Phone</h3>
-                                <p>(+351) XXX XXX XXX</p>
-                                <p> (+351) XXX XXX XXX</p>
+                                <h3>Telemóvel</h3>
+                                <p>(+351) 911 913 799</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
-                        <div class="single-services mb-40">
+                        <div class="single-services mb-40 wow fadeInUp">
                             <div class="features-icon">
-
+                                <i class="fa fa-envelope" style="font-size:48px;color:#07c9ff"></i>
                             </div>
                             <div class="features-caption">
                                 <h3>Email</h3>
                                 <p>barwings@gmail.com</p>
-
                             </div>
                         </div>
                     </div>
@@ -279,112 +248,73 @@
             </div>
         </section>
     </main>
+
+    <!-- Footer -->
     <footer>
-        <!--? Footer Start-->
         <div class="footer-area black-bg">
             <div class="container">
                 <div class="footer-top footer-padding">
-                    <!-- Footer Menu -->
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="single-footer-caption mb-50 text-center">
-                                <!-- logo -->
-                                <div class="footer-logo wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                                <div class="footer-logo">
                                     <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
                                 </div>
-                                <!-- Menu -->
-                                <!-- Header Start -->
-                                <div class="header-area main-header2 wow fadeInUp" data-wow-duration="2s"
-                                    data-wow-delay=".4s">
-                                    <div class="main-header main-header2">
-                                        <div class="menu-wrapper menu-wrapper2">
-                                            <!-- Main-menu -->
-                                            <div class="main-menu main-menu2 text-center">
-                                                <nav>
-                                                    <ul>
-                                                        <li><a href="index.html">Home</a></li>
-                                                        <li><a href="about.html">Sobre</a></li>
-                                                        <li><a href="courses.html">Aulas</a></li>
-                                                        <li><a href="pricing.html">Preços</a></li>
-                                                        <li><a href="blog.html">Notícias</a></li>
-                                                        <li><a href="contact.html">Contactos</a></li>
-                                                    </ul>
-                                                </nav>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="main-menu main-menu2 text-center">
+                                    <nav>
+                                        <ul>
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="about.html">Sobre</a></li>
+                                            <li><a href="courses.html">Aulas</a></li>
+                                            <li><a href="pricing.html">Preços</a></li>
+                                            <li><a href="blog.html">Blog</a></li>
+                                            <li><a href="contact.php">Contactos</a></li>
+                                        </ul>
+                                    </nav>
                                 </div>
-                                <!-- Header End -->
-                                <!-- social -->
-                                <div class="footer-social mt-30 wow fadeInUp" data-wow-duration="3s"
-                                    data-wow-delay=".8s">
-                                    <a href="https://www.instagram.com/barwings.calisthenicsclub/         "><i
-                                            class="fab fa-instagram  "></i></a>
-                                    <a href="https://www.facebook.com/barwings.calisthenicsclub/?locale=pt"><i
-                                            class="fab fa-facebook-f"></i></a>
+                                <div class="footer-social mt-30">
+                                    <a href="https://www.instagram.com/barwings.calisthenicsclub/"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.facebook.com/barwings.calisthenicsclub/?locale=pt"><i class="fab fa-facebook-f"></i></a>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Footer Bottom -->
-                <div class="footer-bottom">
-                    <div class="row d-flex align-items-center">
-                        <div class="col-lg-12">
-                            <div class="footer-copy-right text-center">
-
-                                </p>
+                                <div class="footer-copy-right text-center mt-4">
+                                    <p>© Barwings, Todos os direitos reservados. Projetado por Tiago Almeida e Pedro Franco.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Footer End-->
     </footer>
+
     <!-- Scroll Up -->
     <div id="back-top">
-        <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+        <a title="Go to Top" href="contact.php"> <i class="fas fa-level-up-alt"></i></a>
     </div>
 
-    <!-- JS here -->
-
+    <!-- JS scripts -->
     <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
-    <!-- Jquery, Popper, Bootstrap -->
     <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
     <script src="./assets/js/popper.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
-    <!-- Jquery Mobile Menu -->
     <script src="./assets/js/jquery.slicknav.min.js"></script>
-
-    <!-- Jquery Slick , Owl-Carousel Plugins -->
     <script src="./assets/js/owl.carousel.min.js"></script>
     <script src="./assets/js/slick.min.js"></script>
-    <!-- One Page, Animated-HeadLin -->
     <script src="./assets/js/wow.min.js"></script>
     <script src="./assets/js/animated.headline.js"></script>
     <script src="./assets/js/jquery.magnific-popup.js"></script>
-
-    <!-- Date Picker -->
     <script src="./assets/js/gijgo.min.js"></script>
-    <!-- Nice-select, sticky -->
     <script src="./assets/js/jquery.nice-select.min.js"></script>
     <script src="./assets/js/jquery.sticky.js"></script>
-
-    <!-- counter , waypoint,Hover Direction -->
     <script src="./assets/js/jquery.counterup.min.js"></script>
     <script src="./assets/js/waypoints.min.js"></script>
     <script src="./assets/js/jquery.countdown.min.js"></script>
     <script src="./assets/js/hover-direction-snake.min.js"></script>
-
-    <!-- contact js -->
     <script src="./assets/js/contact.js"></script>
     <script src="./assets/js/jquery.form.js"></script>
     <script src="./assets/js/jquery.validate.min.js"></script>
     <script src="./assets/js/mail-script.js"></script>
     <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
-
-    <!-- Jquery Plugins, main Jquery -->
     <script src="./assets/js/plugins.js"></script>
     <script src="./assets/js/main.js"></script>
 

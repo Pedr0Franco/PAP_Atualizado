@@ -1,6 +1,6 @@
 <?php
 
-$to = "barwings@gmail.com";
+$to = "skkizefranco@gmail.com";
 $from = $_REQUEST['email'];
 $name = $_REQUEST['name'];
 $subject = $_REQUEST['subject'];
@@ -13,10 +13,10 @@ $headers .= "Reply-To: " . $from . "\r\n";
 $headers .= "MIME-Version: 1.0\r\n";
 $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-$subject = "You have a message from your Bitmap Photography.";
+$subject = "Uma nova Mensagem para o Bar-Wings.";
 
 $logo = 'img/logo.png';
-$link = '#';
+$link = 'barwings.pt/contact.php';
 
 $body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
 $body .= "<table style='width: 100%;'>";

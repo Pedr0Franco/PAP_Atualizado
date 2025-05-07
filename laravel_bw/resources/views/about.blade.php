@@ -1,186 +1,199 @@
 @extends('layouts.outer')
 @section('content')
-    <main>
-        <!--? Hero Start -->
-        <div class="slider-area2">
-            <div class="slider-height2 d-flex align-items-center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="hero-cap hero-cap2 pt-70">
-                                <h2>Sobre nós</h2>
+    <div class="slider-area2">
+        <div class="slider-height2 d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="hero-cap hero-cap2 pt-70">
+                            <h2>Sobre nós</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+    <!--? Team -->
+    <section class="team-area pt-80">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-cat text-center mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                        <div class="cat-icon">
+                            <img src="assets/img/gallery/team1.png" alt="">
+                        </div>
+                        <div class="cat-cap">
+                            <h5><a href="pricing.html">Treino de Resistencia</a></h5>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-cat text-center mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="cat-icon">
+                            <img src="assets/img/gallery/team2.png" alt="">
+                        </div>
+                        <div class="cat-cap">
+                            <h5><a href="pricing.html">Ganho de Massa</a></h5>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-cat text-center mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+                        <div class="cat-icon">
+                            <img src="assets/img/gallery/team3.png" alt="">
+                        </div>
+                        <div class="cat-cap">
+                            <h5><a href="pricing.html">Perda de peso</a></h5>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services End -->
+    <!--? About Area-2 Start -->
+    <section class="about-area2 fix pb-padding pt-50 pb-80">
+        <div class="support-wrapper align-items-center">
+            <div class="right-content2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                <!-- img -->
+                <div class="right-img">
+                    <img src="assets/img/gallery/about.png" alt="">
+                </div>
+            </div>
+            <div class="left-content2">
+                <!-- section tittle -->
+                <div class="section-tittle2 mb-20 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                    <div class="front-text">
+                        <h2 class="">Sobre Nos</h2>
+                        <p>Bar-Wings é um clube de calistenia fundado em 2021 por Iúri Lage e um grupo de amigos.
+                            Inicialmente treinavam ao ar livre, mas desde janeiro de 2022 operam no espaço do Acrotramp
+                            Clube das Caldas. O clube promove a calistenia como modalidade desportiva e recreativa, com
+                            treinos seguros e orientados profissionalmente.
+                            A calistenia é um método de treino que utiliza o peso corporal, praticado com barras fixas,
+                            paralelas e outros equipamentos. As vertentes principais praticadas no clube são força (com peso
+                            adicional) e resistência (máximo de repetições em tempo limitado).
+                            Composto por 7 atletas fundadores e mias de 50 alunos e cerca de 15 alunos seniors, o Bar-Wings
+                            já se destacou nacionalmente. Em julho, organizou o Campeonato Nacional de Calistenia, um evento
+                            inédito no país, onde obteve dois campeões nacionais e várias medalhas.</p>
+                        </p>
+
+                        <p class="mb-40"></p>
+                        <a href="courses.html" class="border-btn">Nossas aulas</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="home-blog-area pt-10 pb-50">
+        <div class="container">
+            <!-- Section Tittle -->
+            <div class="row justify-content-center">
+                <div class="col-lg-7 col-md-9 col-sm-10">
+                    <div class="section-tittle text-center mb-100 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                        <h2></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6">
+                    <div class="home-blog-single mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                        <div class="blog-img-cap">
+                            <div class="blog-img">
+
+                            </div>
+                            <div class="blog-cap">
+
+                                <h3>
+                                    <a href="blog.html">Battles 2024</a>
+                                    <video width="400" height=""
+                                        style="border-radius: 20px; border: 3px solid #000;" controls>
+                                        <source
+                                            src="{{ asset('http://localhost:8000/assets/Video/BAR-WINGS BATTLES 2024.mp4') }}"
+                                            type="video/mp4">
+
+                                    </video>
+                                </h3>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Hero End -->
-        <!--? Team -->
-        <section class="team-area pt-80">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-cat text-center mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-                            <div class="cat-icon">
-                                <img src="assets/img/gallery/team1.png" alt="">
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="services.html">Treino de Resistencia</a></h5>
-                                <p></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-cat text-center mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
-                            <div class="cat-icon">
-                                <img src="assets/img/gallery/team2.png" alt="">
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="services.html">Ganho de Massa</a></h5>
-                                <p></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-cat text-center mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
-                            <div class="cat-icon">
-                                <img src="assets/img/gallery/team3.png" alt="">
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="services.html">Perda de peso</a></h5>
-                                <p></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Services End -->
-        <!--? About Area-2 Start -->
-        <section class="about-area2 fix pb-padding pt-50 pb-80">
-            <div class="support-wrapper align-items-center">
-                <div class="right-content2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-                    <!-- img -->
-                    <div class="right-img">
-                        <img src="assets/img/gallery/about.png" alt="">
-                    </div>
-                </div>
-                <div class="left-content2">
-                    <!-- section tittle -->
-                    <div class="section-tittle2 mb-20 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                        <div class="front-text">
-                            <h2 class="">Sobre Nos</h2>
-                            <p>O Barwings é um clube de calistenia que tem como objetivo promover a prática de exercício
-                                físico
-                                e a vida saudável. </p>
-                            </p>
-                            <p class="mb-40"></p>
-                            <a href="courses.html" class="border-btn">Nossas aulas</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- About Area End -->
-        <!--? Blog Area Start -->
-        <section class="home-blog-area pt-10 pb-50">
-            <div class="container">
-                <!-- Section Tittle -->
-                <div class="row justify-content-center">
-                    <div class="col-lg-7 col-md-9 col-sm-10">
-                        <div class="section-tittle text-center mb-100 wow fadeInUp" data-wow-duration="2s"
-                            data-wow-delay=".2s">
-                            <h2></h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                        <div class="home-blog-single mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-                            <div class="blog-img-cap">
-                                <div class="blog-img">
-                                    <img src="assets/img/gallery/blog1.png" alt="">
-                                </div>
-                                <div class="blog-cap">
-                                    <span>Gym & Fitness</span>
-                                    <h3><a href="blog_details.html">Your Antibiotic One Day To 10 Day Options</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                        <div class="home-blog-single mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
-                            <div class="blog-img-cap">
-                                <div class="blog-img">
-                                    <img src="assets/img/gallery/blog2.png" alt="">
-                                </div>
-                                <div class="blog-cap">
-                                    <span>Gym & Fitness</span>
-                                    <h3><a href="blog_details.html">Your Antibiotic One Day To 10 Day Options</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Blog Area End -->
-        <!--? video_start -->
-        <div class="video-area section-bg2 d-flex align-items-center" data-background="assets/img/gallery/video-bg.png">
-            <div class="container">
-                <div class="video-wrap position-relative">
-                    <div class="video-icon">
-                        <a class="popup-video btn-icon" href="https://www.yo  utube.com/watch?v=up68UAfH0d0"><i
-                                class="fas fa-play"></i></a>
-                    </div>
-                </div>
+    </section>
+    <div class="container">
+        <div class="video-wrap position-relative">
+            <div class="video-icon">
+
             </div>
         </div>
-        <!-- video_end -->
-        <!-- ? services-area -->
-        <section class="services-area">
-            <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8">
-                        <div class="single-services mb-40 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
-                            <div class="features-icon">
-                                <img src="assets/img/icon/icon1.svg" alt="">
-                            </div>
-                            <div class="features-caption">
-                                <h3>Localização</h3>
-                                <p>Pavilhão Rainha Dona Leonor, Caldas da Rainha.
-                                </p>
-                            </div>
+    </div>
+    <section class="services-area">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8">
+                    <div class="single-services mb-40 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+                        <div class="features-icon">
+                            <link rel="stylesheet"
+                                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                            <i class="fa fa-map-marker" style="font-size:48px;color:#07c9ff"></i>
+                            </i>
+                        </div>
+                        <div class="features-caption">
+                            <h3>Localização</h3>
+                            <h3><a
+                                    href="https://www.google.com/local/place/fid/0xd18b3a777d7c1ed:0x2d3fcac339f003b/photosphere?iu=https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid%3DZsnIBU-8c6oa3MzeQaDcEA%26cb_client%3Dsearch.gws-prod.gps%26yaw%3D219.56084%26pitch%3D0%26thumbfov%3D100%26w%3D0%26h%3D0&ik=CAISFlpzbklCVS04YzZvYTNNemVRYURjRUE%3D&sa=X&ved=2ahUKEwj63_ySxOyMAxWBcfEDHaO7LWQQpx96BAhEEA4">Pavilhão
+                                    Rainha do Leonor </a></h3>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
-                        <div class="single-services mb-40 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-                            <div class="features-icon">
-                                <img src="assets/img/icon/icon2.svg" alt="">
-                            </div>
-                            <div class="features-caption">
-                                <h3>Phone</h3>
-                                <p>(351) XXX XXX XXX</p>
-                                <p>(351) XXX XXX XXX</p>
-                            </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
+                    <div class="single-services mb-40 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                        <div class="features-icon">
+                            <meta name="viewport" content="width=device-width, initial-scale=1">
+                            <link rel="stylesheet"
+                                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                            </head>
+
+                            <body>
+                                <i class="fa fa-phone" style="font-size:48px;color:#07c9ff"></i>
+
+                        </div>
+                        <div class="features-caption">
+                            <h3>Telemovel</h3>
+                            <p>(+351) 911 913 799</p>
+
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
-                        <div class="single-services mb-40 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".4s">
-                            <div class="features-icon">
-                                <img src="assets/img/icon/icon3.svg" alt="">
-                            </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
+                    <div class="single-services mb-40 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".4s">
+                        <div class="features-icon">
+                        </div>
+                        <meta name="viewport" content="width=device-width, initial-scale=1">
+                        <meta name="viewport" content="width=device-width, initial-scale=1">
+                        <link rel="stylesheet"
+                            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                        </head>
+
+                        <body>
+                            <i class="fa fa-envelope" style="font-size:48px;color:#07c9ff"></i>
+
                             <div class="features-caption">
                                 <h3>Email</h3>
                                 <p>barwings@gmail.com</p>
-                                <p>@</p>
+                                <p></p>
                             </div>
-                        </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
     </main>
     <footer>
         <!--? Footer Start-->
@@ -209,8 +222,9 @@
                                                         <li><a href="about.html">Sobre</a></li>
                                                         <li><a href="courses.html">Aulas</a></li>
                                                         <li><a href="pricing.html">Preços</a></li>
-                                                        <li><a href="blog.html">Notícias</a></li>
+                                                        <li><a href="blog.html">Blog</a>
                                                         <li><a href="contact.html">Contactos</a></li>
+
                                                     </ul>
                                                 </nav>
                                             </div>
@@ -227,6 +241,18 @@
                                             class="fab fa-facebook-f"></i></a>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="footer-copy-right text-center mb-30 wow fadeInUp" data-wow-duration="1s"
+                            data-wow-delay=".2s">
+                            <p>
+                                © Barwings, Todos os direitos reservados. Projetado por Tiago Almeida e Pedro
+                                Franco.
+                                Distribuído por barwings
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -249,10 +275,4 @@
     <div id="back-top">
         <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
     </div>
-
-
-
-    </body>
-
-    </html>
 @endsection
